@@ -1,0 +1,9 @@
+Devices matching your query:
+
+{% for d in devices %}
+- Hostname: {{ d.hostname }}
+  IP: {{ d.ip }}
+  Model: {{ d.model }}
+  OS Version: {{ d.os_version }}
+  Location: {{ d.location }}
+{% endfor %}

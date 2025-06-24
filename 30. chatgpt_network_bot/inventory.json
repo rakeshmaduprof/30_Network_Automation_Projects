@@ -1,0 +1,23 @@
+[
+  {
+    "hostname": "Router1",
+    "ip": "192.168.1.1",
+    "location": "Building A",
+    "os_version": "15.2",
+    "model": "ISR4331"
+  },
+  {
+    "hostname": "Switch1",
+    "ip": "192.168.1.2",
+    "location": "Building B",
+    "os_version": "12.4",
+    "model": "Catalyst 2960"
+  },
+  {
+    "hostname": "Firewall1",
+    "ip": "192.168.1.3",
+    "location": "Building A",
+    "os_version": "9.1",
+    "model": "ASA 5506"
+  }
+]

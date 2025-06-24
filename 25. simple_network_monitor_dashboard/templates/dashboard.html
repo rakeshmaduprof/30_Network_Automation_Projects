@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Network Monitoring Dashboard</title>
+  <style>
+    body { font-family: Arial; background: #f2f2f2; margin: 40px; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #ccc; padding: 12px; text-align: left; }
+    th { background: #333; color: white; }
+    tr:nth-child(even) { background-color: #f9f9f9; }
+  </style>
+</head>
+<body>
+  <h1>📡 Network Monitoring Dashboard</h1>
+  <table>
+    <tr>
+      <th>Device</th>
+      <th>CPU Usage</th>
+      <th>Uptime</th>
+      <th>Interfaces</th>
+    </tr>
+    {% for dev in devices %}
+    <tr>
+      <td>{{ dev.name }}</td>
+      <td>{{ dev.cpu }}</td>
+      <td>{{ dev.uptime }}</td>
+      <td>{{ dev.interfaces }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

@@ -1,0 +1,17 @@
+commands:
+  show ip interface brief: |
+    Interface              IP-Address      OK? Method Status                Protocol
+    FastEthernet0/0        192.168.1.1     YES manual up                    up
+    FastEthernet0/1        unassigned      YES unset  administratively down down
+
+  show version: |
+    Cisco IOS Software, C2600 Software (C2600-ADVENTERPRISEK9-M), Version 15.0(1)M4, RELEASE SOFTWARE (fc1)
+    Technical Support: http://www.cisco.com/techsupport
+
+  show running-config: |
+    version 15.0
+    hostname MockRouter
+    interface FastEthernet0/0
+     ip address 192.168.1.1 255.255.255.0
+    interface FastEthernet0/1
+     shutdown

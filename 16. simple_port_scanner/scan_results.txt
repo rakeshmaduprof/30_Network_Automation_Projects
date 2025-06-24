@@ -1,0 +1,22 @@
+Scan Results for 192.168.35.139 (2025-06-20 21:38:53.619413):
+Port 10: Closed
+Port 11: Closed
+Port 12: Closed
+Port 13: Closed
+Port 14: Closed
+Port 15: Closed
+Port 16: Closed
+Port 17: Closed
+Port 18: Closed
+Port 19: Closed
+Port 20: Closed
+Port 21: Closed
+Port 22: Open
+Port 23: Open
+Port 24: Closed
+Port 25: Closed
+Port 26: Closed
+Port 27: Closed
+Port 28: Closed
+Port 29: Closed
+Port 30: Closed

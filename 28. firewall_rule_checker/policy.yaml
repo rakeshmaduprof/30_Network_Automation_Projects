@@ -1,0 +1,11 @@
+expected_acls:
+  - acl: 100
+    required_rules:
+      - "permit tcp any any eq 80"
+      - "permit tcp any any eq 443"
+      - "permit tcp any 192.168.94.128 eq 22"
+      - "deny ip any any"
+  - acl: 101
+    required_rules:
+      - "permit icmp any any"
+      - "deny ip any any"

@@ -1,0 +1,14 @@
+{
+    "switch": {
+        "device_type": "cisco_ios",
+        "ip": "192.168.35.136",
+        "username": "admin",
+        "password": "admin",
+        "secret": "admin"
+    },
+    "vlans": [
+        { "id": 10, "name": "Staff" },
+        { "id": 20, "name": "Students" },
+        { "id": 30, "name": "Guest" }
+    ]
+}

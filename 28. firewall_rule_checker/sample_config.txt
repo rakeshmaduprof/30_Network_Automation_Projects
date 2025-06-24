@@ -1,0 +1,7 @@
+!
+access-list 100 permit tcp any any eq 80
+access-list 100 permit tcp any any eq 443
+access-list 100 deny ip any any
+!
+access-list 101 permit icmp any any
+access-list 101 deny ip any any

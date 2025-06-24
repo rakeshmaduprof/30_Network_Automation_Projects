@@ -1,0 +1,4 @@
+tasks:
+  - command: hostname PythonRouter
+  - command: interface loopback0
+  - command: ip address 1.1.1.1 255.255.255.255

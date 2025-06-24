@@ -1,0 +1,13 @@
+devices:
+  - name: Switch1
+    ip: 192.168.35.136
+    username: admin
+    password: admin
+  - name: Switch2
+    ip: 192.168.35.138
+    username: admin
+    password: admin
+  - name: Switch3
+    ip: 192.168.35.141
+    username: admin
+    password: admin

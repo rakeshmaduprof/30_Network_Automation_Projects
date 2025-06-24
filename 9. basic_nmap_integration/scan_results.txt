@@ -1,0 +1,14 @@
+Scan started: 2025-06-19 18:13:09.509391
+
+Host: 127.0.0.1 (localhost)
+  Open port: 22/tcp (ssh)
+  Open port: 631/tcp (ipp)
+
+scanme.nmap.org - Host is down or unreachable
+Host: 192.168.35.136 ()
+  Open port: 22/tcp (ssh)
+  Open port: 23/tcp (telnet)
+  Open port: 80/tcp (http)
+  Open port: 443/tcp (https)
+
+Scan finished: 2025-06-19 18:15:32.893615
