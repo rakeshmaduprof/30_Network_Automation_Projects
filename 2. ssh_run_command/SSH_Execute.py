@@ -18,6 +18,7 @@ def ssh_to_device(ip, username, password, command):
             output += channel.recv(9999).decode()
 
         # Send command
+        channel.send('terminal len 0'+'\n')
         channel.send(command + '\n')
         time.sleep(2)  # Give time for command to execute
 
