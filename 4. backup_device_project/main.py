@@ -1,5 +1,4 @@
 import yaml
-import os
 from datetime import datetime
 from netmiko import ConnectHandler
 from pathlib import Path
