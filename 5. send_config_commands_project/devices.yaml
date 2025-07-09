@@ -1,6 +1,6 @@
 devices:
   - name: router1
-    ip: 192.168.94.132
+    ip: 192.168.94.136
     username: admin
     password: admin
     device_type: cisco_ios
