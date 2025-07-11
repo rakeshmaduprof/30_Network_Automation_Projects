@@ -1,12 +1,12 @@
 devices:
-  - ip: 192.168.94.132
+  - ip: 192.168.94.136
     username: admin
     password: admin
     device_type: cisco_ios
     new_hostname: R1-New
 
-  - ip: 192.168.35.135
+  - ip: 192.168.35.142
     username: admin
     password: admin
     device_type: cisco_ios
-    new_hostname: SW1-New
+    new_hostname: R2-New
