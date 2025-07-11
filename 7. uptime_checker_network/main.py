@@ -24,7 +24,6 @@ def main():
     config = load_config()
     interval = config["interval"]
     devices = config["devices"]
-    print(devices)
 
     while True:
         for device in devices:
