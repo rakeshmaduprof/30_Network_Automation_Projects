@@ -13,6 +13,8 @@ def parse_commands(cmd_str):
 def main():
     df = pd.read_csv("12. bulk_device_config_csv/devices.csv")
     for _, row in df.iterrows():
+        print(_)
+        print(row)
         device = {
             "device_type": row["device_type"],
             "ip": row["ip"],
