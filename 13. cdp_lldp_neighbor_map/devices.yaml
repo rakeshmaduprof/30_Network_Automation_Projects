@@ -1,9 +1,5 @@
 devices:
   - device_type: cisco_ios
-    ip: 192.168.35.136
-    username: admin
-    password: admin
-  - device_type: cisco_ios
-    ip: 192.168.35.138
+    ip: 192.168.94.133
     username: admin
     password: admin
