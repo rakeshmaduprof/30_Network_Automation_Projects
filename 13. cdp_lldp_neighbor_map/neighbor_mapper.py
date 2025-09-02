@@ -38,7 +38,6 @@ def get_neighbors(device):
 
         # CDP parsed summary
         cdp_neighbors = conn.send_command("show cdp neighbors", use_textfsm=True)
-
         # Detailed CDP for IP extraction
         cdp_detail_raw = conn.send_command("show cdp entry *")
         neighbor_ip_map = parse_cdp_detail(cdp_detail_raw)
@@ -117,7 +116,6 @@ def main():
     for device in devices:
         ip, hostname, neighbors, neigh_ips = get_neighbors(device)
         neighbor_data.append((ip, hostname, neighbors, neigh_ips))
-
     G = build_graph(neighbor_data)
     visualize_graph(G)
 
