@@ -1,7 +1,7 @@
 devices:
-  - ip: 192.168.94.134
+  - ip: 192.168.94.136
     community: public
-    name: MyRouter1
-  - ip: 192.168.35.139
+    name: Router2
+  - ip: 192.168.35.132
     community: public
-    name: MyRouter2
+    name: Router3

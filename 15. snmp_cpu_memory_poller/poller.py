@@ -22,7 +22,7 @@ def snmp_get(ip, community, oid):
         print(f"[ERROR] SNMP GET failed on {ip} for {oid}: {e}")
         return None
 
-def load_devices(path="devices.yaml"):
+def load_devices(path="15. snmp_cpu_memory_poller/devices.yaml"):
     with open(path) as f:
         return yaml.safe_load(f)["devices"]
 
@@ -47,7 +47,6 @@ def poll_devices(devices):
             mem_total = mem_used + mem_free
             mem_percent = round((mem_used / mem_total) * 100, 2)
             mem_data[name] = mem_percent
-
     return cpu_data, mem_data
 
 def plot_data(data, title, filename, ylabel):
@@ -63,7 +62,7 @@ def plot_data(data, title, filename, ylabel):
     # Show values on top of each bar
     for bar in bars:
         height = bar.get_height()
-        plt.text(bar.get_x() + bar.get_width()/2, height + 0.1, f'{height}%', 
+        plt.text(bar.get_x() + bar.get_width()/2, height + 0.05, f'{height}%', 
                  ha='center', va='bottom', fontsize=10)
 
     plt.tight_layout()
@@ -72,7 +71,7 @@ def plot_data(data, title, filename, ylabel):
 
 
 def main():
-    devices = load_devices("devices.yaml")
+    devices = load_devices()
     cpu_data, mem_data = poll_devices(devices)
 
     if cpu_data:
