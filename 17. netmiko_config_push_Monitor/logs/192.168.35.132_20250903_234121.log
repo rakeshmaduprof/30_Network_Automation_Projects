@@ -1,0 +1,12 @@
+Connected to 192.168.35.132 - Pushing config...
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router1(config)#interface Loopback0
+Router1(config-if)#ip address 10.1.1.1 255.255.255.255
+Router1(config-if)#no shut
+Router1(config-if)#end
+Router1#
+write mem
+Building configuration...
+[OK]
+Router1#

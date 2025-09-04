@@ -1,9 +1,8 @@
 {
-  "url": "https://192.168.94.135/restconf/data/ietf-interfaces:interfaces",
+  "url": "https://192.168.35.133/restconf/data/Cisco-IOS-XE-native:native/hostname",
   "username": "admin",
   "password": "admin",
   "headers": {
-    "Accept": "application/yang-data+json",
-    "Content-Type": "application/yang-data+json"
+  "Accept": "application/yang-data+json"
   }
 }

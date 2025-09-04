@@ -33,6 +33,7 @@ console = Console()
 # ======================
 def push_config(device, config_file):
     start_time = time.time()
+    os.makedirs(LOG_DIR,exist_ok=True)
     log_file_path = os.path.join(LOG_DIR, f"{device['ip']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
 
     try:

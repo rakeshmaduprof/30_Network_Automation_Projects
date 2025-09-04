@@ -1,0 +1,12 @@
+Connected to 192.168.94.136 - Pushing config...
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+NetmikoTest(config)#interface Loopback0
+NetmikoTest(config-if)#ip address 10.1.1.1 255.255.255.255
+NetmikoTest(config-if)#no shut
+NetmikoTest(config-if)#end
+NetmikoTest#
+write mem
+Building configuration...
+[OK]
+NetmikoTest#
