@@ -1,5 +1,5 @@
 {
-  "url": "https://192.168.35.133/restconf/data/Cisco-IOS-XE-native:native/hostname",
+  "url": "https://192.168.35.133/restconf/data/Cisco-IOS-XE-native:native/interface",
   "username": "admin",
   "password": "admin",
   "headers": {
