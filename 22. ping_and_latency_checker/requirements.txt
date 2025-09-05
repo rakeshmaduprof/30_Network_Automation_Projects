@@ -1,0 +1,3 @@
+# IP Reachability & Latency Checker
+# No external dependencies required.
+# All modules used (subprocess, platform, csv, datetime) are part of Python's standard library.

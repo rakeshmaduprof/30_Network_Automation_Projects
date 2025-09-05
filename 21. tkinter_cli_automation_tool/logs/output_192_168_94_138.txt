@@ -1,0 +1,10 @@
+Command: show ip int brief
+terminal len 0
+Router1#show ip int brief
+Interface              IP-Address      OK? Method Status                Protocol
+FastEthernet0/0        192.168.94.138  YES DHCP   up                    up      
+FastEthernet0/1        unassigned      YES unset  administratively down down    
+FastEthernet1/0        unassigned      YES unset  administratively down down    
+FastEthernet1/1        unassigned      YES unset  administratively down down    
+Router1#
+----------------------------------------
