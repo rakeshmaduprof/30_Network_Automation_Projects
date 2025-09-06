@@ -1,8 +1,8 @@
 devices:
-  - name: Switch1
-    ip: 192.168.35.136
+  - name: Router1
+    ip: 192.168.35.134
     community: public
 
-  - name: Switch2
-    ip: 192.168.35.138
+  - name: Router2
+    ip: 192.168.94.138
     community: public
