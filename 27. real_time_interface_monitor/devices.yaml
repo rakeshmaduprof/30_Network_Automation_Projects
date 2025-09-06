@@ -1,9 +1,9 @@
 devices:
-  - hostname: Switch1
-    ip: 192.168.35.136
+  - hostname: Router1
+    ip: 192.168.94.138
     username: admin
     password: admin
-  - hostname: Switch2
-    ip: 192.168.35.138
+  - hostname: Router2
+    ip: 192.168.35.134
     username: admin
     password: admin

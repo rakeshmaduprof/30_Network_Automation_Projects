@@ -15,8 +15,7 @@ def ssh_get_interface_status(device):
     try:
         ssh = paramiko.SSHClient()
         ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-        ssh.connect(device["ip"], username=device["username"], password=device["password"],look_for_keys=False,allow_agent=False
-                    )
+        ssh.connect(device["ip"], username=device["username"], password=device["password"],look_for_keys=False,allow_agent=False)
         shell = ssh.invoke_shell()
         shell.send("terminal length 0\n")
         shell.send("show ip interface brief\n")
@@ -67,7 +66,7 @@ def monitor():
                         print(f"[ALERT] {msg}")
                         log_status(hostname, msg)
                 last_status[hostname] = current_status
-        time.sleep(30)
+        time.sleep(30) 
 
 if __name__ == "__main__":
     monitor()
