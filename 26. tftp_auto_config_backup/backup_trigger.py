@@ -2,10 +2,10 @@ import paramiko
 import time
 
 devices = [
-    {"ip": "192.168.35.136", "username": "admin", "password": "admin", "hostname": "Switch"},
+    {"ip": "192.168.35.134", "username": "admin", "password": "admin", "hostname": "PythonRouter"},
 ]
 
-TFTP_SERVER_IP = "192.168.94.128"
+TFTP_SERVER_IP = "192.168.35.129"
 
 def backup_config(device):
     ssh = paramiko.SSHClient()
