@@ -8,4 +8,5 @@ expected_acls:
   - acl: 101
     required_rules:
       - "permit icmp any any"
+      - "permit tcp 192.168.1.1 any"
       - "deny ip any any"

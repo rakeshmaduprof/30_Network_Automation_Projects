@@ -4,4 +4,5 @@ access-list 100 permit tcp any any eq 443
 access-list 100 deny ip any any
 !
 access-list 101 permit icmp any any
+access-list 101 permit tcp any 192.168.94.128 eq 22
 access-list 101 deny ip any any
