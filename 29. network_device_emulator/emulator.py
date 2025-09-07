@@ -12,7 +12,7 @@ def main():
 
     while True:
         try:
-            user_input = input("Router> ").strip()
+            user_input = input("Router# ").strip()
             if user_input.lower() == "exit":
                 print("Exiting CLI...")
                 break
