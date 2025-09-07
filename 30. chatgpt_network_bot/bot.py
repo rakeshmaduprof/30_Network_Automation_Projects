@@ -4,12 +4,10 @@ from jinja2 import Template
 # Load network inventory
 with open("30. chatgpt_network_bot/inventory.json", "r") as f:
     inventory = json.load(f)
-    print(inventory)
 
 # Load response template
 with open("30. chatgpt_network_bot/templates/response_template.txt", "r") as f:
     response_template = Template(f.read())
-    print(response_template)
 
 def search_inventory(question):
     if "ios version 15" in question.lower():
